@@ -37,8 +37,8 @@ public void render(GameContainer container, StateBasedGame game, Graphics g)thro
 	g.drawString("Welcome to Break a Pong!", 250, 0);
 	g.drawString("Cordinats x and y: "+cordx+" "+cordy, 0, 0);
 	Start.draw(215,50);
-	Controls.draw(215, 190);
-	Quit.draw(215,320);
+	Controls.draw(215, 200);
+	Quit.draw(215,390);
 	
 }
 

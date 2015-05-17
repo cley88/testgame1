@@ -17,6 +17,7 @@ public class Main extends StateBasedGame{
 		super(gamename);
 		this.addState(new Menu());
 		this.addState(new Play());
+		this.addState(new In_Game());
 		// TODO Auto-generated constructor stub
 	}
 
